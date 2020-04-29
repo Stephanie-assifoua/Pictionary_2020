@@ -18,7 +18,7 @@ io.on('connection', (socket) => {
     onConnection(socket);
 });
 
-let user = [];
+let users = [];
 
 function onConnection(socket) {
     socket.on('username', (username) => {
